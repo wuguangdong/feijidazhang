@@ -12,6 +12,7 @@ function isCrash(obj1, obj2){
 		var x = obj1.offsetLeft+obj1.offsetWidth/2;
 		var y = obj1.offsetTop + obj1.offsetHeight/2;
 		if(x > leftSide && x < rightSide && y > upSide && y < downSide){
+			console.log('我喜欢你')
 			return true;
 		} 
 	}
