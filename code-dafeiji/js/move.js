@@ -3,7 +3,7 @@
 //获取元素的css样式属性值
 function getStyleAttr(obj, attr){
 	if (window.getComputedStyle){
-		console.log('真滴')
+		console.log('真滴22')
 		return window.getComputedStyle(obj, null)[attr];
 	}
 	else {
