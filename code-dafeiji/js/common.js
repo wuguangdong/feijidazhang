@@ -8,11 +8,11 @@ function isCrash(obj1, obj2){
 		var leftSide = obj2.offsetLeft-obj1.offsetWidth/2;
 		var rightSide = obj2.offsetLeft+obj2.offsetWidth+obj1.offsetWidth/2;
 		var upSide = obj2.offsetTop - obj1.offsetHeight/2;
-		var downSide = obj2.offsetTop + obj2.offsetHeight + obj1.offsetHeight/2;
+		var downSide = obj2.offsetTop + obj2.offsetHeight + obj1.offsetHeight/2;x
 		var x = obj1.offsetLeft+obj1.offsetWidth/2;
 		var y = obj1.offsetTop + obj1.offsetHeight/2;
 		if(x > leftSide && x < rightSide && y > upSide && y < downSide){
-			console.log('我喜欢你真的22333')
+			console.log('我喜欢你真的2233223')
 			return true;
 		} 
 	}
