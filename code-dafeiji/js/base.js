@@ -6,7 +6,7 @@ class Base{
 	}
 	
 	init(){
-		console.log('lonngmao')
+		console.log('lonngma333o')
 	}
 	move(){
 		
