@@ -48,6 +48,7 @@ gulp.task('jsTask', function(){
 	.pipe(gulp.dest('dest/js'));
 })
 gulp.task('jsTask2', function(){
+	console.log(5555)
 	gulp.src('css/*.css')
 	.pipe(minifyCss()) //js压缩
 	.pipe(gulp.dest('dest/css'));
