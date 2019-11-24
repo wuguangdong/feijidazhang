@@ -5,7 +5,7 @@
 
 class Enemy extends Base{
 	constructor(type) {
-		    //属性223222
+		    //属性2232223333
 		super()
 		this.hp = 1; //血量
 		this.speed = 10; //速度
