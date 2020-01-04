@@ -10,7 +10,7 @@ function createXHR(){
 
 //封装ajax
 function ajax(obj){
-	
+	console.log('我要起飞')
 	//默认参数
 	obj.type = obj.type || "get";
 	obj.async = obj.async==undefined ? true : obj.async;
