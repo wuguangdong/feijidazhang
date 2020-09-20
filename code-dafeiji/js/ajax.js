@@ -10,6 +10,7 @@ function createXHR(){
 
 //封装ajax
 function ajax(obj){
+	// 改变了master
 	console.log('我要起飞')
 	//默认参数
 	obj.type = obj.type || "get";
